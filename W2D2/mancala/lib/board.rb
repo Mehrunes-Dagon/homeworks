@@ -32,6 +32,8 @@ class Board
       current_cup << gems.shift
       i += 1
     end
+    # this is a comment
+    
 
     if current_cup.count == 1
       render
